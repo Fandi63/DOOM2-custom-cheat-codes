@@ -1,0 +1,56 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "ZDoom_Doom.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	GAY_SOLDIERS
+	{
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 2;
+				location = "C:\\Users\\tululum\\Downloads\\gzdoom-4-10-0-Windows-64bit\\gzdoom.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			
+			resource1
+			{
+				type = 0;
+				location = "C:\\Users\\tululum\\Downloads\\nb5texd2\\nb5texd2.WAD";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+		}
+		
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 32;
+		}
+		
+		
+		scripts
+		{
+			file0 = "E:\\DOOMS\\MAP.fs";
+		}
+		
+	}
+	
+}
+

@@ -1,0 +1,14 @@
+#INCLUDE "Zcommon.acs"
+
+script 666 ENTER
+{
+    while(TRUE)
+    {
+        if (Random(0, 1))
+            SetWeapon("Fist");
+        else
+            SetWeapon("Pistol");
+	
+        Delay(35*2);
+    }
+}
